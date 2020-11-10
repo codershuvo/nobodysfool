@@ -155,6 +155,8 @@ body {
 }
 .slider-bg {
     background-color: #f1f1f1;
+    border-top: 5px solid #e9e9e9;
+    border-bottom: 10px solid #e9e9e9;
 }
 
 .carousel-item h2 {
@@ -181,6 +183,140 @@ body {
     border-radius: 50%;
     background-color: #000000;
 }
+
+.category img {
+    width: 85px;
+    height: 80px;
+}
+
+.category p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+}
+
+.category .text-highlight {
+    font-size: 16px;
+    line-height: 19px;
+    color: #0099ff;
+}
+
+.blockquote h1 {
+    font-size: 36px;
+    line-height: 43px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.contact-us {
+    height: 58px;
+    border-radius: 8px;
+    background-color: #0099ff;
+    display: block;
+    font-size: 26px;
+    line-height: 31px;
+    color: #e6e6e6;
+    text-transform: uppercase;
+    padding: 14px 8px;
+}
+.blockquote {
+    background-color: #e0e0e0;
+    padding: 30px;
+    border-left: 10px solid #0099ff;
+}
+.contact-us:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
+.contact {
+    border-top: 5px solid #000000;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.foot h6 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.foot p {
+    font-size: 12px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.about-us img {
+    width: 215px;
+    height: 90px;
+}
+
+.img-thumbnail {
+    background-color: #1a1a1a;
+    border: 1px solid #555555;
+}
+
+.read-more {
+    font-size: 12px;
+    line-height: 22px;
+    color: #0099ff;
+}
+
+.quick-links ul li {
+    border-bottom: 1px solid #232323;
+    padding-left: 20px;
+}
+
+.quick-links ul li a {
+    font-size: 12px;
+    line-height: 28px;
+    color: #0099ff;
+}
+
+.quick-links  ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+}
+.quick-links  ul li:before {
+	content: ">>";
+	position: absolute;
+    left: 0;
+    color: #989898;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.latest-blog-post p {
+    margin: 0;
+}
+
+.foot input, textarea.form-control {
+    margin-bottom: 12px;
+    background-color: #232323;
+    border: none;
+}
+
+.foot input [placeholder]{
+    font-size: 13px;
+    line-height: 21px;
+    color: #989898;
+}
+
+
+.footer-bg {
+    background-color: #222222;
+}
+
+.footer p {
+    font-size: 12px;
+    line-height: 12px;
+    color: #666666;
+    margin-bottom: 0rem;
+}
+
 
 
 
