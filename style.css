@@ -144,9 +144,43 @@ body {
     font-weight: 400;
 }
 
+.carousel-inner .slider-img {
+    width: 550px;
+    height: 400px;
+}
 
+.carousel-inner .slider-img img {
+    width: 550px;
+    height: 400px;
+}
+.slider-bg {
+    background-color: #f1f1f1;
+}
 
+.carousel-item h2 {
+    font-size: 36px;
+    line-height: 36px;
+    color: #333333;
+}
+.carousel-item p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+}
 
+.btn-highlight {
+    border-radius: 7px;
+    background-color: #0099ff;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#carouselExampleIndicators ol li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000000;
+}
 
 
 
